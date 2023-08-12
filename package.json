@@ -9,6 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@babel/helper-module-imports": "^7.22.5",
+    "@fortawesome/fontawesome-free": "^6.4.2",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@heroicons/react": "^2.0.18",
     "@material-tailwind/react": "^2.1.0",
     "@types/node": "20.4.9",
@@ -24,5 +30,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "babel-plugin-macros": "^3.1.0"
   }
 }

@@ -28,13 +28,20 @@ const config: Config = {
       'primary': ['Fira Sans', 'sans-serif'],
       'secondary' : ['Fira Code', 'monospace']
     },
+    borderWidth: {
+      '2': '2px'
+    },
     extend: 
     {backgroundImage: {
       'hero': "url('/hero.png')",
       'footer-texture': "url('/img/footer-texture.png')",
-    }
+    }},
+    lineHeight: {
+      'title': '0.68',
+      '12': '3rem'
     },
   },
   plugins: [],
-}
-export default config
+};
+
+export default config;
