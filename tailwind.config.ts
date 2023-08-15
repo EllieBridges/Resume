@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss'
 
+
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
@@ -31,17 +32,35 @@ const config: Config = {
     borderWidth: {
       '2': '2px'
     },
-    extend: 
-    {backgroundImage: {
+    safelist : ['animate-[fade-in-left_1s_ease-in-out]', 'animate-[fade-in-right_1s_ease-in-out]'], 
+    extend: {
+      backgroundImage: {
       'hero': "url('/hero.png')",
-      'footer-texture': "url('/img/footer-texture.png')",
-    }},
-    lineHeight: {
-      'title': '0.68',
-      '12': '3rem'
+      'sprinkles': "url('/sprinkles.png')",
+      },
+      lineHeight: {
+        'title': '0.68',
+        '12': '3rem'
+      },
+      animation: {
+        fadeIn: "fadeIn 2s ease-in forwards"
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: '0' },
+          "100%": { opacity: '1' }
+        }
+      },
+      variants: {
+        animation: ["motion-safe"]
+    },
     },
   },
-  plugins: [],
+  plugins:[
+    require('@tailwindcss/forms'),
+  ],
+  
 };
+
 
 export default config;

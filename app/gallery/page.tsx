@@ -1,11 +1,13 @@
 import PhotoGallery from "./PhotoGallery"
 
-export default function Page() {
+const Page= () => {
   return (
-    <div>
+    <div id='background' className='bg-sprinkles bg-center'>
   <h1>Photography</h1>
   <PhotoGallery />
   </div>
   )
 
 }
+
+export default Page;

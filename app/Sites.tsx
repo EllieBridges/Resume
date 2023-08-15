@@ -10,8 +10,8 @@ const Sites = () => {
             <h2 className='font-primary text-4xl font-bold text-green mb-10 p-2'>Get to know me</h2>
              <ul className='flex flex-row justify-evenly'>
             {Object.keys(links).map((key, id) => (
-                <li key={id} className='flex flex-col w-48 h-48 bg-green rounded-full items-center justify-center hover:grow'>
-                    <Link href={links[key]}><Image src={`/${key}.png`} alt={`${links[key]} logo`} width={100} height={100}/></Link></li>
+                <li key={id} className='flex flex-col h-20 w-20 bg-green rounded-full items-center justify-center hover:bg-purple md:w-48 md:h-48'>
+                    <Link href={links[key]}><Image className='md:scale-150'src={`/${key}.png`} alt={`${links[key]} logo`} width={50} height={50}/></Link></li>
             ))}
             </ul>
     
