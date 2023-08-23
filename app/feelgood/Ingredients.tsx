@@ -1,13 +1,16 @@
-export default function Ingredients({data}: {data: Array<string>}) {
-    return(
-        <div className ='font-secondary text-xl'>
+const Ingredients = ({ recipe }: { recipe: string[] }) => {
+    console.log(recipe)
+    return (
+        <div className='font-secondary text-sm md:text-base lg:text-2xl'>
             <ul>
-            {data.map((ingredient, i)=> {
-                return(
-                    <li key={i}>{ingredient}</li>
-                ) 
-            })}
+                {recipe.map((ingredient, i) => {
+                    return (
+                        <li key={i}>{ingredient}</li>
+                    )
+                })}
             </ul>
-        </div>
+        </div >
     )
 }
+
+export default Ingredients;

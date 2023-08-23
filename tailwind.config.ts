@@ -23,7 +23,8 @@ const config: Config = {
       'purple': '#dcaae4',
       'green': '#78ffc4',
       'beige': '#faf3de',
-      'white': '#ffffff'
+      'white': '#ffffff',
+      'red': '#ff0000',
     },
     fontFamily: {
       'primary': ['Fira Sans', 'sans-serif'],

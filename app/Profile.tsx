@@ -4,7 +4,8 @@ import AnimateOnScroll from "./AnimateOnScroll";
 const Profile = ({id, title, content, subtitle, colour, photoUrl, photoSize}: {id: string, title: string, content: string, subtitle: string, colour: string, photoUrl: string, photoSize: number}) => {
     return(
         <AnimateOnScroll>
-        <section id={id} className='flex items-center z-1 justify-center m-5 bg-gradient-to-r from-pink via-green to-purple shadow-lg p-1 w-3/4' data-te-animation-init
+        <section id={id} className='flex items-center z-1 justify-center m-5 bg-gradient-to-r from-pink via-green to-purple shadow-lg p-1 w-3/4' 
+        data-te-animation-init
         data-te-animation-start="onScroll"
         data-te-animation="[slide-right_1s_ease-in-out]">
             <div id='divTopper' className='bg-white flex flex-col justify-evenly items-center px-5 pb-10 pt-5 -mt-2 -ml-2 lg:flex-row lg:px-20'>

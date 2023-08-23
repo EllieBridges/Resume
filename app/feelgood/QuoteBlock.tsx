@@ -1,7 +1,7 @@
-const QuoteBlock = ({quote}: {quote: string}) => {
+const QuoteBlock = ({ data }: { data: string }) => {
     return (
-        <div className = 'quoteContainer'>
-            <h3 className = 'quote'>{quote}</h3>
+        <div id='quoteContainer' className=''>
+            <h3 className='text-base m-4 md:text-2xl'>{data}</h3>
         </div>
     )
 }
