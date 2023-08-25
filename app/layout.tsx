@@ -1,3 +1,4 @@
+import Footer from './Footer';
 import Navbar from './Navbar';
 import './style.css';
 
@@ -8,9 +9,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
-      <body><Navbar/>
-      {children}</body>
+
+      <body><Navbar />
+        {children}</body>
+      <Footer />
     </html>
   )
 }
