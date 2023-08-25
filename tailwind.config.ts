@@ -25,19 +25,20 @@ const config: Config = {
       'beige': '#faf3de',
       'white': '#ffffff',
       'red': '#ff0000',
+      'black': '#000000',
     },
     fontFamily: {
       'primary': ['Fira Sans', 'sans-serif'],
-      'secondary' : ['Fira Code', 'monospace']
+      'secondary': ['Fira Code', 'monospace']
     },
     borderWidth: {
       '2': '2px'
     },
-    safelist : ['animate-[fade-in-left_1s_ease-in-out]', 'animate-[fade-in-right_1s_ease-in-out]'], 
+    safelist: ['animate-[fade-in-left_1s_ease-in-out]', 'animate-[fade-in-right_1s_ease-in-out]'],
     extend: {
       backgroundImage: {
-      'hero': "url('/hero.png')",
-      'sprinkles': "url('/sprinkles.png')",
+        'hero': "url('/hero.png')",
+        'sprinkles': "url('/sprinkles.png')",
       },
       lineHeight: {
         'title': '0.68',
@@ -54,13 +55,13 @@ const config: Config = {
       },
       variants: {
         animation: ["motion-safe"]
-    },
+      },
     },
   },
-  plugins:[
+  plugins: [
     require('@tailwindcss/forms'),
   ],
-  
+
 };
 
 

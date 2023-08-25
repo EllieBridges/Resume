@@ -3,6 +3,7 @@ import Image from "next/image"
 const PhotoGallery = () => {
     return (
         <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
+
             <div className="flex flex-wrap flex-col md:flex-row md:-m-2">
 
                 <div className='flex w-1/2 flex-wrap mx-auto w-full md:w-1/2'>

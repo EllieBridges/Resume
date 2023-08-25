@@ -1,12 +1,11 @@
 'use client'
 import React, { useState } from 'react';
-import axios from 'axios';
-import Title from './Title';
 import QuoteBlock from './QuoteBlock';
 import Button from './Button';
 import Ingredients from './Ingredients';
 import { getRecipe, getAPIData } from './ninjaAPI';
-import { type } from 'os';
+import Header from '../Header';
+import Peach from './Peach';
 
 const randomCocktail = () => {
   const cocktails = ['Espresso Martini', 'Manhattan', 'White Russian', 'Porn Star Martini', 'Margarita', 'Negroni', 'Mai Tai', 'Whiskey Sour']
@@ -45,7 +44,9 @@ function Page() {
 
   return (
     <div className='flex flex-col bg-sprinkles bg-center h-screen '>
-      <Title />
+      <Header
+        text='Positivity Peach' />
+      <Peach />
       <section id='border' className='flex flex-col justify-center mx-auto bg-gradient-to-r from-pink via-green to-purple shadow-lg p-1 m-2 font-secondary text-pink w-4/5 md:w-fit' >
         <div className='bg-white pb-10 pt-5 -mt-2 -ml-2 md:px-20 md:w-fit'>
           <div className='text-center font-primary text-purple mb-3  '>
