@@ -13,7 +13,7 @@ const Sites = () => {
             <ul className='flex flex-col mx-auto justify-evenly md:flex-row'>
                 {Object.keys(links).map((key, id) => (
                     <li key={id} className='flex flex-col m-2 h-32 w-32 bg-green rounded-full items-center justify-center hover:bg-pink hover:border-solid hover:border-white md:w-48 md:h-48'>
-                        <Link href={links[key]}><Image className='md:scale-150' src={`/${key}.png`} alt={`${links[key]} logo`} width={50} height={50} /></Link></li>
+                        <Link href={links[key]}><Image className='md:scale-150' src={`${key}.png`} alt={`${links[key]} logo`} width={50} height={50} /></Link></li>
                 ))}
             </ul>
 
