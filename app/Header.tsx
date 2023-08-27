@@ -1,6 +1,3 @@
-const imageUrl =
-  "/hero.png";
-
 const Header = ({ text }: { text: string }) => {
   return (
     <header
