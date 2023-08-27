@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav id='navbar' className='flex flex-row  w-100 sticky inset-x-0 top-0 bg-gradient-to-r from-pink to-purple text-white p-2 z-10'>
       <div id='navHome' className='basis-2/6'>
-        <Link href='/' className='text-green text-2xl font-black hover:text-white'>
+        <Link href='/' className='text-white text-2xl font-black hover:text-green'>
           Home
         </Link>
       </div>
