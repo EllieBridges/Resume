@@ -22,7 +22,7 @@ const Page = () => {
                     subtitle='Hi, I&apos;m Ellie.'
                     content='I&apos;m currently on a journey to becoming a front-end software developer. Please have a look around and let me know your thoughts.'
                     color='green'
-                    photoUrl='/profilePic.png'
+                    photoUrl='profilepic.png'
                     photoSize={200}
                 />
 
@@ -32,7 +32,7 @@ const Page = () => {
                     content='I&apos;ve been in the technology field for over 5 years. Starting out as a Geographical Information Systems (GIS) Technician, I worked my way up to becoming a GIS Specialist in the Power Transmission sector. I love the industry so much, but want to find a way to combine the skills I&apos;ve gained through this experience with an new opportunity for growth and self-development.'
                     color='purple' />
 
-                <Image className='m-auto p-10 hover:scale-150' src='/globe.png' alt='globe illustration' width={400} height={400} />
+                <Image className='m-auto p-10 hover:scale-150' src='globe.png' alt='globe illustration' width={400} height={400} />
 
                 <Paragraph
                     id='why'
