@@ -23,7 +23,7 @@ const PhotoGallery = () => {
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/crow.png' />
+                            src='crow.png' />
                     </picture >
                 </div>
 
@@ -32,19 +32,19 @@ const PhotoGallery = () => {
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/elf.png' />
+                            src='elf.png' />
                     </picture >
                     <picture className='w-1/2 p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/whale.png' />
+                            src='whale.png' />
                     </picture >
                     <picture className='w-1/2 p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/owl.png' />
+                            src='owl.png' />
                     </picture >
                 </div>
 
@@ -53,13 +53,13 @@ const PhotoGallery = () => {
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/dog.png' />
+                            src='dog.png' />
                     </picture>
                     <picture className='w-1/2 p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/bouquet.png' />
+                            src='bouquet.png' />
                     </picture>
                     <picture className='w-full p-1 md:p-2'>
                         <img
@@ -74,19 +74,19 @@ const PhotoGallery = () => {
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/monster.png' />
+                            src='monster.png' />
                     </picture>
                     <picture className='w-1/2 p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/fish.png' />
+                            src='fish.png' />
                     </picture>
                     <picture className='w-full p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/antelope.png' />
+                            src='antelope.png' />
                     </picture>
                 </div>
 
