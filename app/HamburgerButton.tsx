@@ -1,7 +1,5 @@
-'use client'
-
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const HamburgerButton = () => {
     const [toggle, setToggle] = useState('hidden');
@@ -18,9 +16,7 @@ const HamburgerButton = () => {
                         className='w-6 h-6 text-white'
                         x-show='!showMenu'
                         fill='none'
-                        stroke-linecap='round'
-                        stroke-linejoin='round'
-                        stroke-width='2'
+                        strokeWidth='2'
                         viewBox='0 0 24 24'
                         stroke='currentColor'
                     >
