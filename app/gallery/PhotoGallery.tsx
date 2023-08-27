@@ -11,13 +11,13 @@ const PhotoGallery = () => {
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/walt.png' />
+                            src='walt.png' />
                     </picture>
                     <picture className='w-1/2 p-1 md:p-2'>
                         <img
                             alt='gallery'
                             className='block h-full w-full rounded-lg object-cover object-center hover:scale-150'
-                            src='/pony.png' />
+                            src='pony.png' />
                     </picture >
                     <picture className='w-full p-1 md:p-2'>
                         <img
