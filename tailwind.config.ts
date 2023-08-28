@@ -36,8 +36,8 @@ const config: Config = {
     safelist: ['animate-[fade-in-left_1s_ease-in-out]', 'animate-[fade-in-right_1s_ease-in-out]'],
     extend: {
       backgroundImage: {
-        'hero': "url('hero.png')",
-        'sprinkles': "url('sprinkles.png')",
+        'hero': "url('/hero.png')",
+        'sprinkles': "url('/sprinkles.png')",
       },
       lineHeight: {
         'title': '0.68',
