@@ -26,10 +26,10 @@ const HamburgerButton = () => {
             </div>
             {!toggle && <div className='mobile-menu self-end mt-10 -mr-2 absolute w-fit bg-purple bg-opacity-60 text-black text-2xl md:hidden'>
                 <ul className='text-black w-fit'>
-                    <li><Link href='/gallery' className='block text-md px-5 py-4 hover:bg-green transition duration-300 '>Gallery</Link></li>
-                    <li><Link href='/feelgood' className='block text-md px-5 py-4 hover:bg-green transition duration-300 '>Feel Good</Link></li>
-                    <li><Link href='/resume' className='block text-md px-5 py-4 hover:bg-green transition duration-300 '>Resume</Link></li>
-                    <li><Link href='/contact' className='block text-md px-5 py-4 hover:bg-green transition duration-300 '>Contact</Link></li>
+                    <li><Link href='/gallery' className='block text-md px-5 py-4 hover:bg-green transition duration-300' onClick={clickHandler}>Gallery</Link></li>
+                    <li><Link href='/feelgood' className='block text-md px-5 py-4 hover:bg-green transition duration-300' onClick={clickHandler}>Feel Good</Link></li>
+                    <li><Link href='/resume' className='block text-md px-5 py-4 hover:bg-green transition duration-300' onClick={clickHandler}>Resume</Link></li>
+                    <li><Link href='/contact' className='block text-md px-5 py-4 hover:bg-green transition duration-300' onClick={clickHandler}>Contact</Link></li>
                 </ul>
             </div>}
         </div>
