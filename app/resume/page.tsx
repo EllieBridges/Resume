@@ -1,6 +1,5 @@
 import Header from '../Header';
 import WorkCard from './WorkCard';
-import ShadowContainer from '../ShadowContainer';
 
 type PlacementDetails = {
     company: string,

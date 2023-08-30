@@ -1,3 +1,5 @@
+//Need to work on reducing the file side to improve load times - jpeg or webp? - to decide
+
 import Image from "next/image";
 import walt from '../../public/walt.png'
 import pony from '../../public/pony.png'
@@ -12,9 +14,7 @@ import monster from '../../public/monster.png'
 import fish from '../../public/fish.png'
 import antelope from '../../public/antelope.png'
 
-// const imageLoader = ({ src, width, quality }) => {
-//     return `https://example.com/${src}?w=${width}&q=${quality || 75}`
-// }
+
 
 const PhotoGallery = () => {
     return (
